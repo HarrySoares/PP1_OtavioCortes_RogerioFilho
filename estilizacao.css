@@ -1,0 +1,384 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+li>img{
+    float: left;
+}
+h1.centralizado{
+    text-align: center;
+}
+
+.paginaAtual{
+    background-color:violet;
+}
+header{
+    width: 100%;
+    background-color: rgb(0, 47, 94);
+}
+#menu{
+    padding: 2px;
+}
+
+header{
+    width: 100%;
+    margin-top: 0%;
+    position: sticky;
+    top: 0;
+}
+#navegacao ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 8px;
+}
+#navegacao ul li{
+    display: inline;
+    list-style-type: none;
+    margin: 15px;
+}
+#navegacao ul{
+    text-align: center;
+}
+#navegacao ul li a:hover{
+    color: rgb(187, 187, 204);
+    padding: 10px;
+}
+
+div > p{
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_texto{
+    margin:20px 100px 80px 100px;;
+}
+
+.container_texto h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+.container_local{
+    padding: 10px;
+    overflow: hidden;
+    margin: 50px;
+}
+
+.container_local iframe{
+    float: left;
+    margin-right: 50px;
+}
+
+table{
+    margin: 50px;
+}
+
+tr,td{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    line-height: 1.2;
+}
+
+.centraliza_imagens{
+    display: block;
+    margin: 0 auto;
+}
+
+.container_footer {
+    background-color: rgb(0, 47, 94);
+    display: flex;
+    justify-content: space-evenly;
+ 
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+.footer-column {
+    display: flex;
+    border-radius: 20px;
+    padding: 0.9rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card{
+    margin: 10px;
+    background-color: honeydew;
+    padding: 1rem;
+    max-width: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#noticias h2{
+    font-style: italic;
+}
+
+h3,h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dados_participante{
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+fieldset{
+    margin: 30px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+input:valid{
+    border: 1px solid green;
+}
+input{
+    margin: 5px;
+}
+input[type = 'checkbox']:checked + label{
+    font-weight: bold;
+} 
+#enviar{
+    margin-right: 10px;
+    background-color: green;
+}
+#limpar{
+    background-color:red;
+    align-items: center;
+}
+#agradecimento{
+    padding: 5px;
+    text-align: center;
+    margin: 8rem 2rem 8rem 2rem;
+    border: 5px solid  rgb(0, 47, 94);
+    border-style: double;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+#container{
+    border-radius: 20px;
+    margin-bottom: 80px;
+    background-color: rgb(0, 47, 94);
+    box-shadow: 0 0 10px;
+    padding: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    gap: 1em 1em;
+    margin: 50px;
+
+}
+
+.atividades{
+    text-align: center;
+    padding: 1rem;
+    max-width: 220px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.foto_redonda{
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid  rgb(0, 47, 94);
+
+}
+#comite{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.centraliza_texto{
+    text-align: center;
+}
+#texto_mapa{
+    text-align: center;
+    padding: 10px;
+}
+.noticias{
+        background-color: rgb(0, 47, 94);
+        box-shadow: 0 0 5px;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+        float: right;
+        flex-direction: column;
+    }
+
+ #container_hoteis{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 20px;
+ }
+
+ .hoteis{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+ }
+ .hoteis div{
+     padding-left: 10px;
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+ }
+table{
+    border-radius: 20px;
+    border: solid;
+}
+ th{
+     font-size: 2rem;
+     padding: 1rem;
+ }
+
+
+.container_pessoas{
+    margin-bottom: 80px;
+    box-shadow: 0 0 10px;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    gap: 1em 1em;
+    margin: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.pessoa{  
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: silver;
+    display: flex;
+    text-align: left;
+    border: solid 2px slategray;
+    
+}
+
+.pessoa > div{
+    margin-left: 2rem;
+}
+
+#container h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 480px) {
+    header{
+        font-size: 14px;
+    }
+    header img{
+        display: none;
+    }
+    #img_home{
+        height: 80%;
+        width: 100%;
+    }
+    aside{
+        float: right;
+    }
+    .container_footer{
+        flex-wrap: wrap;
+    }
+    footer{
+      margin: 1rem;
+    }
+    footer > div{
+      border-bottom: #545c88 1px solid;
+      padding-bottom: 1rem;
+    }
+    #dados_participante{
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    .hoteis{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    iframe{
+        height: 100%;
+        width: 100%;
+    }
+    tr, td{
+      font-size: 10px;
+      margin: 0px;
+      padding: 0;
+    }
+    table{
+      margin: 0;
+      padding: 0;
+    }
+    fieldset{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 20px;
+      padding: 1rem;
+    }
+  
+    fieldset > div > div{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    
+    }
+    th{
+      font-size: 15px;
+      padding: 3px;
+    }
+    table{
+      margin-left: -10px;
+    }
+    #container{
+        margin: 10px;
+    }
+    .pessoa{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .noticias{
+        margin: 0;
+    }
+    .noticias{
+        display: none;
+    }
+    .container_texto{
+        margin: 0;
+        padding: 20px;
+    }
+    
+}
